@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: "Comfortaa", cursive;
+}
+.title2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.Text {
+  text-align: center;
+  margin-top: 50px;
+  max-width: 2000px;
+}
+
+.image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 10%;
+}
+
+.naivbar {
+  text-align: right;
+  margin-top: -30px;
+  color: #ffffff;
+}
+
+.link {
+  color: #0084ff;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .naivbar {
+    text-align: center;
+    margin-top: 25px;
+  }
+}

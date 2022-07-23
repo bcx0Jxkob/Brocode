@@ -4,24 +4,38 @@
 
 <head>
     <title>Der Brocode</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="icon" href="https://cdn.discordapp.com/attachments/827110358447423509/999699810510712963/6941697.png" type="icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 
 
 <body>
 
-    <div id="title">Der Brocode</div>
-    <br />
-    <div id="info">Coming soon...</div>
-
-    <br/>
-
-    <div id="image">
-        <img src="https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" alt="sunset_wallpaper">
+    <div class="title">Der Brocode</div>
+    <div class="naivbar">
+        <a class="link" href="disclaimer.html" target="_self">Disclaimer</a>
     </div>
+    <br />
+    <div class="info">Wenn es zu Treffen mit den engsten Homies kommt, gibt es doch des öfteren Streitereien, ob gewisse Verhaltensweisen oder getätigte Aktionen in Ordnung und/oder akzeptabel sind. <br/><br/> Deshalb sind im Folgenden die wichtigsten Regeln und Grundsätze nachzulesen.</div>
+        <br/>
+        <hr style="max-width:665px">
 
+        <div class="copylink">
+            Um diese Seite zu teilen, falls du ganz schnell beweisen musst, dass du im Recht liegst, klicke auf den Button, um den Link zu kopieren!
+            <br/><br/>
+
+            <button onclick="copyText()" class=copy type="copy">Link kopieren</button>
+            <script>
+                function copyText() {
+                    navigator.clipboard.writeText
+                        ("https://brocode.social/");
+            }
+            </script>
+        </div>
+
+        <div class="workinprogress">Work in progress...<div/>
 </body>
 
 </html>
